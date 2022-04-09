@@ -5,7 +5,20 @@
   box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+label {
+    background-color: rgb(30, 194, 139);
+    font-weight: 700;   
+    width: 300px;
+    padding: 3px;
+    border: 2.5px solid gray;
+    margin: 0;
+
+}
 .custom-select-container {
+  background-color: rgb(32, 218, 218);
   display: inline-block;
   position: relative;
 }
@@ -57,7 +70,7 @@
 }
 
 .custom-select-option:hover {
-  background-color: hsl(200, 100%, 70%);
+  background-color: hsl(199, 79%, 74%);
 }
 
 .custom-select-option.selected {
